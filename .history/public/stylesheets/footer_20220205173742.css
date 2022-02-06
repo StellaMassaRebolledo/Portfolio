@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(1, 48, 54);
+  }
+ 
+  p {
+    color: rgb(247, 243, 243);
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: medium;
+  }

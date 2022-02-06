@@ -1,0 +1,33 @@
+<% include partials/header.ejs %>
+  
+  <h2 style="text-align: left;"><%= title %></h2>
+
+  <div class="container p-10 my-3 bg-dark text-white">
+    <p>Email Adress: stella.massa.rebolledo@gmail.com</p>
+    <p>Phone Number:(+1) 647-839-7052</p>
+    <p>In.: www.linkedin.com/in/stella-massa-rebolledo</p>
+  </div>
+
+  <form action="/">
+  <div class="form-group">
+    <label for="name">Name:</label>
+    <input class="form-control" placeholder="Enter name" id="name">
+  </div>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" placeholder="Enter email" id="email">
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone Number:</label>
+    <input class="form-control" placeholder="Enter Phone Number" id="phone">
+  </div>
+  <div class="form-group">
+    <label for="comments">Write your comments:</label>
+    <input type="text" class="form-control" placeholder="Comments" id="com">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<% include partials/footer.ejs %>
